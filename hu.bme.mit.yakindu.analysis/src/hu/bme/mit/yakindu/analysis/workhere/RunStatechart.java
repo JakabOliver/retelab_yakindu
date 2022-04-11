@@ -42,11 +42,10 @@ public class RunStatechart {
 				break;
 				default: 
 					break;
+					
 			}
 			print(s);
 		}while (!exit); 
-
-	
 		System.exit(0);
 	}
 
