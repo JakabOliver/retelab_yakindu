@@ -67,8 +67,13 @@ public class Main {
 			System.out.println(s4.getName());
 		}
 
+		int counter=1;
 		for(State s4: states) {
-			
+			if(s4.getName()=="") {
+				System.out.println("this has no name"+s4);
+				System.out.println("name could be: tempname"+(counter));
+				counter++;
+			}
 		}
 		// Transforming the model into a graph representation
 		String content = model2gml.transform(root);

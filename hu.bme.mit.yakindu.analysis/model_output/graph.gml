@@ -506,6 +506,49 @@ graph
 				borderDistance	6
 			]
 		]
+	
+	node
+		[
+			id	14
+			graphics
+			[
+				w	169.4
+				h	138
+				type	"rectangle"
+				fill	"#FFFFFF"
+				fill2	"#FFFFFF"
+				outline	"#000000"
+			]
+			LabelGraphics
+			[
+				text	"o14: State"
+				outline	"#000000"
+				fill	"#FFFFFF"
+				fontSize	16
+				fontName	"Monospace"
+				autoSizePolicy	"node_width"
+				anchor	"t"
+				borderDistance	0.0
+			]
+			LabelGraphics
+			[
+				text	"
+	specification = null
+	namespace = null
+	name = 
+	documentation = 
+	orthogonal = false
+	simple = true
+	composite = false
+	leaf = true
+	"
+				fontSize	14
+				fontName	"Consolas"
+				alignment	"left"
+				anchor	"tl"
+				borderDistance	6
+			]
+		]
 	edge
 	[
 		source	1
@@ -610,6 +653,26 @@ graph
 	[
 		source	2
 		target	13
+		graphics
+		[
+			fill	"#000000"
+			width	3
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"vertices"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	2
+		target	14
 		graphics
 		[
 			fill	"#000000"
@@ -1195,6 +1258,25 @@ graph
 		LabelGraphics
 		[
 			text	"incomingTransitions"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
+		source	14
+		target	2
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"parentRegion"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"
