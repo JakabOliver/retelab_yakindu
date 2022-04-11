@@ -492,7 +492,7 @@ graph
 				text	"
 	specification = null
 	namespace = null
-	name = 
+	name = Trap
 	documentation = 
 	orthogonal = false
 	simple = true
