@@ -16,7 +16,7 @@
         <outgoingTransitions xmi:id="_eo-xIO12Eeaky9HhW8GsWQ" specification="white" target="_MlHjEO12Eeaky9HhW8GsWQ"/>
         <outgoingTransitions xmi:id="_26kFsO12Eeaky9HhW8GsWQ" specification="after 1 s/&#xD;&#xA;whiteTime-=1" target="_No5UQO12Eeaky9HhW8GsWQ"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_50vhALmYEeymz-UTug37dw" name="" incomingTransitions="_k2PkoO12Eeaky9HhW8GsWQ"/>
+      <vertices xsi:type="sgraph:State" xmi:id="_50vhALmYEeymz-UTug37dw" name="TrapState" incomingTransitions="_k2PkoO12Eeaky9HhW8GsWQ"/>
     </regions>
   </sgraph:Statechart>
   <notation:Diagram xmi:id="_6_tyoO11Eeaky9HhW8GsWQ" type="org.yakindu.sct.ui.editor.editor.StatechartDiagramEditor" element="_6_kosO11Eeaky9HhW8GsWQ" measurementUnit="Pixel">

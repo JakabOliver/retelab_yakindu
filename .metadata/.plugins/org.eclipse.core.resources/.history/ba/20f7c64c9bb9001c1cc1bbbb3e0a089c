@@ -61,15 +61,12 @@ public class Main {
 				trapStates.add(s3);
 			}
 		}
-		System.out.println("Trapstates:");
+		System.out.println();
 	
 		for(State s4: trapStates) {
 			System.out.println(s4.getName());
 		}
-
-		for(State s4: states) {
-			
-		}
+		
 		// Transforming the model into a graph representation
 		String content = model2gml.transform(root);
 		// and saving it

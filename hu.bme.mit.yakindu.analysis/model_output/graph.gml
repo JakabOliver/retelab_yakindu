@@ -492,7 +492,7 @@ graph
 				text	"
 	specification = null
 	namespace = null
-	name = TrapState
+	name = 
 	documentation = 
 	orthogonal = false
 	simple = true

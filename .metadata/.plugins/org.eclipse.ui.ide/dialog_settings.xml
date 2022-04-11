@@ -22,4 +22,15 @@
 		<item value="org.yakindu.sct.generator.java:3.5.2.201902261347"/>
 		<item value="org.yakindu.sct:3.5.2.201902261347"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/home/cloud/Downloads/ReLab1_Lab1Start_v6.zip"/>
+		</list>
+	</section>
 </section>
